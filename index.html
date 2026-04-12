@@ -6,36 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
 </head>
+<style>
+    div {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-<body style="background-color:olive">
+    h1 {
+        text-align: center;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        color: white;
+
+
+    }
+
+    p,
+    a,
+    ol,
+    ul {
+        color: #E8E1C5;
+        ;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    a {
+        color: #313E17;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        text-align: justify;
+        display: inline;
+        margin-left: 1%;
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        /* horizontal center */
+        align-items: center;
+        /* vertical center */
+
+    }
+
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<body style="background-color:#546B41">
     <h1>Amarnath Kumar</h1>
     <img src="./assets/100_0836.JPG" float:right;margin-left:15px; alt="Picture of AK" height="200" />
-    <hr />
-    <p>
-        I am an aspiring software engineer currently studying as a sophomore.
-    </p>
-    <h2>Education</h2>
-    <ol>
-        <li>Currently pursuing B.Tech in CSE from St. Thomas' College of Engineering & Technology, graduating 2028</li>
-        <li>Completed 12th from St. Aloysius Orphanage & Day School 2024</li>
-        <li>Completed 10th from St. Aloysius Orphanage & Day School 2022</li>
-    </ol>
-    <h2>Work Experience</h2>
-    <ul>
-        <li>Assisted in managing daily retail operations in a family run store</li>
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-        <li>Affluent in following Programming Languages:</li>
+    <div>
+        <p>
+            I am a software engineer currently studying as a sophomore.
+            <hr />
+
+        </p>
+        <h2>Education</h2>
+        <ol>
+            <li>Currently pursuing B.Tech in CSE from St. Thomas' College of Engineering & Technology, graduating 2028
+            </li>
+            <li>Completed 12th from St. Aloysius Orphanage & Day School 2024</li>
+            <li>Completed 10th from St. Aloysius Orphanage & Day School 2022</li>
+        </ol>
+        <h2>Work Experience</h2>
         <ul>
-            <li>Python </li>
-            <li>C</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java</li>
+            <li>Assisted in managing daily retail operations in a family run store</li>
         </ul>
-    </ul>
-    <hr />
+        <h2>Skills</h2>
+        <ul>
+            <li>Affluent in following Programming Languages:</li>
+            <ul>
+                <li>Python </li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+            </ul>
+        </ul>
+    </div>
+    <hr style="color: black;" />
     <footer>
         <a href="./public/about.html">About me</a>
         <a href="./public/contact.html">Contact</a>
